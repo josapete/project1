@@ -1,0 +1,44 @@
+//Styles for the purpose/mission and clearance ad.
+
+.mission-wrapper {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+
+  .mission {
+    h2 {
+      color: $site-blue;
+      font-size: 45px;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    p {
+      font-size: 20px;
+      text-align: center;
+      margin-top: 20px;
+    }
+
+    .ad {
+      margin: 0 auto;
+      margin-top: 100px;
+      width: 1150px;
+      height: 200px;
+      background-image: url(../images/ad.jpg);
+
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+
+      h3 {
+        color: $site-white;
+        text-align: center;
+        font-size: 40px;
+        background-color: $site-blue;
+      }
+    }
+  }
+}

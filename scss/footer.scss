@@ -1,0 +1,25 @@
+//Styles for the footer
+
+footer {
+  width: 100%;
+  height: 50%;
+  background-color: $site-gray;
+  margin: 0 auto;
+  display: flex;
+
+  text-align: center;
+  color: $site-white;
+
+  flex-direction: column;
+
+  a {
+    color: $site-blue;
+    &:hover {
+      color: $site-white;
+    }
+  }
+
+  p {
+    font-size: 15px;
+  }
+}

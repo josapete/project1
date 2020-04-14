@@ -1,0 +1,25 @@
+.free_clothing {
+  margin: 0 auto;
+  width: 85%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+  h2 {
+    font-size: 40px;
+    color: $site-blue;
+    display: flex;
+  }
+
+  .provided {
+    float: left;
+    font-size: 20px;
+    display: flex;
+  }
+
+  .documentation {
+    float: right;
+    font-size: 20px;
+    display: flex;
+  }
+}
